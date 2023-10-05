@@ -10,6 +10,7 @@ h1 {
 .titreRed,
 .paragrapheRed {
     color: red;
+    font-size: 30px;;
 }
 
 #photo {
