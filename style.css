@@ -11,3 +11,8 @@ h1 {
 .paragrapheRed {
     color: red;
 }
+
+#photo {
+    width: 300px;
+    height: auto;
+}
