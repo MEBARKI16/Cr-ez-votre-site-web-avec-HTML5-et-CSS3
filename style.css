@@ -6,3 +6,8 @@ h2 {
 h1 {
     color: red;
 }
+
+.titreRed,
+.paragrapheRed {
+    color: red;
+}
