@@ -1,5 +1,6 @@
 p,
-h2 {
+h2,
+.motBlue {
     color: blue;
 }
 
