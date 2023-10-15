@@ -29,3 +29,7 @@ h1 {
     /* taille de texte relative */
     font-size: 2rem;
 }
+
+.titleListe {
+    font-family: 'Young Serif', serif;
+}

@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <title>Intégrez le CSS dans la page HTML</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -12,9 +15,9 @@
         Voici une très belle photo que j'ai trouvée sur Unsplash :<br />
         <a href="Images/massimo-virgilio-dowzP7INy1A-unsplash.jpg">
             <img id="photo" src="Images/massimo-virgilio-dowzP7INy1A-unsplash.jpg" alt="Photo de plage vue du dessus"
-            title="Photo de plage vue du dessus" />    
+                title="Photo de plage vue du dessus" />
         </a>
-    
+
     </p>
 
     <h1>Créez un lien hypertexte avec la balise <a> et l'attribut href</h1>
@@ -34,7 +37,8 @@
         <li>l'ancre est plus bas sur la même page :</li>
         <h2 id="cuisine">La cuisine</h2>
         <p class="paragrapheRed">
-            Lorem ipsum dolor sit amet, <span class="motBlue">consectetuer adipiscing elit</span>, sed diam nonummy nibh euismod tincidunt ut laoreet
+            Lorem ipsum dolor sit amet, <span class="motBlue">consectetuer adipiscing elit</span>, sed diam nonummy nibh
+            euismod tincidunt ut laoreet
             dolore magna aliquam erat volutpat.
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
             commodo consequat. Duis autem
@@ -146,11 +150,11 @@
             nulla facilisis at vero eros et accumsan et iusto
             odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
         </p>
-        <li>l'ancre est située dans une autre page :</li>
-        <a href="./index2.html#cuisine">la cuisine</a>
-        <a href="./index2.html#jardin">le jardin</a>
-        <a href="./index2.html#salon">le salon</a>
-    </ul>
+        <ul class="titleListe">l'ancre est située dans une autre page :
+            <li><a href="./index2.html#cuisine">la cuisine</a></li>
+            <li><a href="./index2.html#jardin">le jardin</a></li>
+            <li><a href="./index2.html#salon">le salon</a></li>
+        </ul>
 </body>
 
 </html>
