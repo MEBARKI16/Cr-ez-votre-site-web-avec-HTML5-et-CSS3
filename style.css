@@ -11,10 +11,21 @@ h1 {
 .titreRed,
 .paragrapheRed {
     color: red;
-    font-size: 30px;;
+    font-size: 30px;
+    ;
 }
 
 #photo {
     width: 300px;
     height: auto;
+}
+
+#jardin {
+    /* taille de texte absolue */
+    font-size: 30px;
+}
+
+#cuisine {
+    /* taille de texte relative */
+    font-size: 2rem;
 }
