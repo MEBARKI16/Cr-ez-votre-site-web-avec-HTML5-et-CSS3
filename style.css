@@ -37,3 +37,13 @@ h1 {
     text-decoration: underline !important;
     text-align: center;
 }
+
+.image {
+    /* color hexa */
+    color: #256525;
+}
+
+div a:nth-child(1) {
+    /* color rgb */
+    color: rgb(25, 65, 84);
+}
