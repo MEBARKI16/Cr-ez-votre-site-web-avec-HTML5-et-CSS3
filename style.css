@@ -39,8 +39,13 @@ h1 {
 }
 
 .image {
-    /* color hexa */
     color: #256525;
+}
+
+.image {
+    height: 50vh !important;
+    width: 100vw !important;
+    background: url("Images/massimo-virgilio-dowzP7INy1A-unsplash.jpg") center fixed cover;
 }
 
 div a:nth-child(1) {
